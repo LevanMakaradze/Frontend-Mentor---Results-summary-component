@@ -1,0 +1,137 @@
+
+/* author:Levan Makaradze */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    position: relative;
+    margin: 150px auto;
+    width: 50em;
+    height: 32em;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px -5px lightgray;
+}
+.container-result{
+    background-image: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 22em;
+    text-align: center;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.container-result h2{
+    color: lightgrey;
+    font-weight: 700;
+}
+
+.score{
+    position: relative;
+    border-radius: 100%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+}
+.score h1{
+    font-size: 4rem;
+    color:white;
+}
+.total{
+    color: darkgrey;
+    font-weight: 700;
+    position: relative;
+    bottom: 50px;
+}
+.container p{
+    padding: 0 50px;
+    color: darkgrey;
+    font-weight: 500;
+}
+
+
+.container-summary{
+    background-color: white;
+    width: 20em;
+    color:hsl(224, 30%, 27%);   
+    padding: 15px 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+.list-box{
+    position: relative;
+    display: flexbox;
+}
+
+.box{
+    display: flex;
+    height: 30px;
+    margin: 20px 0px;
+
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.skill{
+    position: relative;
+    margin: 0 5px;
+}
+.skill-score{
+    text-align: right;
+    margin-left:auto;
+    color:darkgrey;
+    font-weight: 600;
+}
+.your-score{
+    display: inline-flex;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+}
+
+#reaction{
+    background-color:hsla(0, 100%, 67%, 0.1);
+    color:hsl(0, 100%, 67%);
+}
+
+#memory{
+    background-color:hsl(39, 100%, 56%, 0.1);
+    color:hsl(39, 100%, 56%);
+}
+
+#verbal{
+    background-color:hsl(166, 100%, 37%, 0.1);
+    color:hsl(166, 100%, 37%);
+}
+
+#visual{
+    background-color:hsl(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+#btn{
+    border:0px;
+    background-color:hsl(224, 30%, 27%);
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    color:white;
+    font-weight: 700;
+    font-size:1.1em;
+}
+#btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+
+}
