@@ -1,14 +1,32 @@
 
 /* author:Levan Makaradze */
 
+
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    margin: 0;
 }
+
+
+
+footer {
+    width: 100%;
+    font-size: 12px; 
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: -50%;
+    }
+  footer a{
+      color:blue;
+  }
+
+
 .container{
     display: flex;
     position: relative;
-    margin: 150px auto;
+    margin: 10% auto;
     width: 50em;
     height: 32em;
     border-radius: 20px;
@@ -16,7 +34,7 @@ body{
 }
 .container-result{
     background-image: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    width: 22em;
+    width: 50%;
     text-align: center;
     color: white;
     position: relative;
@@ -58,8 +76,9 @@ body{
 
 
 .container-summary{
+    position: relative;
     background-color: white;
-    width: 20em;
+    width: 50%;
     color:hsl(224, 30%, 27%);   
     padding: 15px 40px;
     border-bottom-right-radius: 20px;
@@ -133,5 +152,21 @@ body{
 #btn:hover{
     cursor: pointer;
     background-image: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        ;
+        width: 80%;
+    }
+    .container-result{
+        width: 95%;
+    }
+    .container-summary{
+        width: 90%;
+    }
 
 }
